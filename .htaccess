@@ -1,0 +1,24 @@
+RewriteEngine ON
+
+
+Rewritebase /
+
+RewriteCond $1 !^(index.php|assets|css|cache|images|flash|js|weather_images|user_images|new_images|innteract_images|xml|crons|favicon\.ico|robots\.txt|system)
+
+
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^system/(.*)$ system/$1 [L]
+    
+#Rewirte images rules
+RewriteRule ^images/(.*)$ assets/images/$1 [L]
+RewriteRule ^css/(.*)$ assets/css/$1 [L]
+RewriteRule ^js/(.*)$ assets/js/$1 [L]
+RewriteRule ^user_images/(.*)$ assets/user_images/$1 [L]
+RewriteRule ^innteract_images/(.*)$ assets/innteract_images/$1 [L]
+RewriteRule ^flash/(.*)$ assets/flash/$1 [L]
+
+RewriteRule ^new_images/(.*)$ assets/new_images/$1 [L]
+
+RewriteRule ^weather_images/(.*)$ assets/weather_images/$1 [L]
+
+RewriteRule ^xml/(.*)$ assets/xml/$1 [L]
