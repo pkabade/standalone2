@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, tt, var,
+ u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#4a4949;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.floatl{float:left;}
+.floatr{float:right !important;}
+.clears{clear:both; line-height:1px; font-size:1px;}
+.f24{font-size:24px; color:#838383;}
+.f24 sup{font-size:11px;}
+.MT15{padding-top:15px;}
+.MT10{margin-top:10px;}
+.DB{display:block;}
+.P7{padding:7px !important;}
+.MR40{margin-right:40px;}
+.W203{width:203px;}
+.W252{width:252px;}
+.W740{width:740px;}
+.W630{width:630px;}
+.W608{width:608px;}
+.W967{width:967px;}
+.PB26{padding-bottom:26px !important;}
+.PL10{padding-left:10px !important;}
+.W515{width:515px !important;}
+.BBN{border-bottom:none !important;}
+.PT7{padding-top:7px !important;}
+.PL05{padding: 0 0 0 5px !important;}
+.f20{font-size: 20px !important;}
+.W700{width:700px;}
+.W450 {width:450px;}
+.M015{margin: 15px 0;}
+.f35{font-size: 35px !important;}
+.H254{height: 254px;}
+.W170{width:170px;}
+.P10IE{ *padding-bottom:10px;}
+.PB15{padding-bottom:15px !important; *padding-bottom:15px;}
+.P5{padding: 5px !important;}
+.W215{width: 215px !important;}
+.W70{width: 70px;}
+.P0 {padding: 0 !important;}
+.PT10{padding-top: 10px !important;}
+.MR110{margin-right: 80px;}
+.PR10{padding-right: 10px !important;}
+.MR10{margin-right: 10px !important;}
+.ML220{margin-left: 220px !important;}
+.W325{width: 320px !important;}
+.M0{margin: 0 !important;}

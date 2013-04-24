@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+.tstorms,.mostlycloudy,.overcast,.freezingrain,.fog,.snow,.cloudy,.partlycloudy,.chancerain,.chanceflurries ,.chancefreezingrain,.rain,.chancesnow,.chancestorms,.sunny,.mostlysunny,.clear,.sleet,.chancesleet,.hazy,.Scatteredcloud,.flurries  {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("images/weather_icons.png");
+    background-position: -3px 5px;
+    background-repeat: no-repeat;
+    height: 68px;
+    width: 67px;
+}
+.mostlycloudy_small,.cloudy_small,.fog_small,.snow_small,.partlycloudy_small,.sleet_small,.chancesleet_small,.Scatteredcloud_small,.flurries_small,.hazy_small,.chancerain_small,.chanceflurries_small,.chancefreezingrain_small,.rain_small,.chancesnow_small,.chancestorms_small,.sunny_small,.mostlysunny_small,.clear_small,.tstorms_small {
+	background:url(images/weather_icons.png) -78px -124px no-repeat;
+	width:52px;
+	height:45px;
+}
+.mostlycloudy{
+	  background-position: -3px -103px;
+}
+.overcast {
+	  background-position: -3px -195px;
+}
+.freezingrain {
+	 background-position: -3px -293px;
+}
+.fog{
+	 background-position: -17px -381px;
+}
+.snow {
+	 background-position: -17px -491px;
+}
+.cloudy,.partlycloudy {
+	 background-position: -17px -580px;
+}
+.chancerain {
+     background-position: -154px -577px;
+}
+.chanceflurries {
+	 background-position: -154px -488px;
+}
+.chancefreezingrain {
+	 background-position: -154px -391px;
+}
+.rain {
+	 background-position: -154px -300px;
+}
+.chancesnow {
+	 background-position: -154px -197px;
+}
+.chancestorms {
+     background-position: -141px -105px;
+}
+.sunny,.mostlysunny,.clear {
+	 background-position: -131px 1px;
+}
+.sleet,.chancesleet{
+	 background-position: -17px -680px;
+}
+.hazy{
+	 background-position: -17px -680px;
+}
+.Scatteredcloud{
+	 background-position: -9px -760px;
+}
+.flurries{
+	 background-position: -152px -760px;
+}
+.cloudy_small {
+	 background-position: -73px -23px;
+}
+.fog_small {
+	 background-position: -83px -409px;
+}
+.snow_small {
+	 background-position: -87px -510px;
+}
+.cloudy_small,.partlycloudy_small {
+	 background-position:-87px -605px;
+}
+.sleet_small,.chancesleet_small {
+	 background-position: -87px -707px;
+}
+.Scatteredcloud_small {
+	 background-position: -91px -778px;
+}
+.flurries_small {
+	 background-position: -224px -777px;
+}
+.hazy_small{
+	 background-position: -225px -699px;
+}
+.chancerain_small {
+	background-position: -225px -615px;
+}
+.chanceflurries_small {
+	background-position: -220px -514px;
+}
+.chancefreezingrain_small {
+	background-position: -220px -413px;
+}
+.rain_small {
+	background-position: -220px -325px;
+}
+.chancesnow_small {
+	 background-position: -220px -223px;
+}
+.chancestorms_small {
+     background-position: -210px -130px;
+}
+.sunny_small,.mostlysunny_small,.clear_small {
+	 background-position: -196px -17px;
+}
+.tstorms_small {
+	background-position: -74px -23px;
+}
+
+/* Review Icon Class */
+
+.review_5, .review_4_5, .review_3_5, .review_2_5, .review_1_5, .review_0_5, .review_0, .review_1, .review_2, .review_3, .review_4 {
+	background:url(../images/sprite.png) -261px 383px;
+    height:20px;
+    margin:1px 2px;
+    width:80px;
+	float:left;
+}
+.review_4_5 {
+	background-position:-277px 383px;
+}
+.review_3_5{
+	background-position:-293px 383px;
+}
+.review_2_5{
+	background-position:-309px 383px;
+}
+.review_1_5{
+	background-position:-325px 383px;
+}
+.review_0_5{
+	background-position:-341px 383px;
+}
+.review_0{
+	background-position:-357px 383px;
+}
+.review_1{
+	background-position:-325px 363px;
+}
+.review_2{
+	background-position:-309px 363px;
+}
+.review_3{
+	background-position:-293px 363px;
+}
+.review_4{
+	background-position:-277px 363px;
+}

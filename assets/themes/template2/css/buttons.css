@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/* */
+.Button_arrow{
+	background: url("../images/ButtonArrow.png") no-repeat scroll -2px -4px transparent;
+	float: right;
+    height: 35px;
+    margin: -9px -9px 0;
+	width: 39px;
+}
+.RedButton_arrow{
+	background: url("../images/RedButtonArrow.png") no-repeat scroll -2px -4px transparent;
+	float: right;
+    height:35px;
+    margin:-9px -22px 0 -1px;
+	width:39px;
+}
+.Sign_arrow{
+	background: url("../images/ButtonArrow.png") no-repeat scroll 2px -3px transparent;
+	float: right;
+    height:40px;
+    margin: -9px -9px 0;
+	width:41px;
+}
+a.Greenbox, a.Redbox, a.GreenSimple{
+	background-color:#3a8921;
+    color:#FFFFFF;
+    cursor:pointer;
+    overflow:visible;
+	font-family:arial, Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-shadow:0 1px 1px #000000;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:2px;
+	box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    -o-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	text-decoration:none;
+	display:block;
+	padding:5px 0px 5px 10px;
+	height: 15px;
+	margin: 8px;
+	text-align: left;
+
+}
+a.Redbox{
+	background-color:#94190e;
+	padding:5px 9px;
+	float:left;
+}
+a.GreenSimple{
+	padding:5px 10px;
+}
+a.Greenbox:hover{
+	background-color:#4c9a34;
+}
+a.Redbox:hover{
+	background-color:#b63c24;
+}
+a.GreenSimple:hover{
+	background-color:#4c9a34;
+}
+a.Greenbox:active{
+	background-color:#64ac4e;
+}
+a.Redbox:active{
+	background-color:#c95131;
+}
+a.GreenSimple:active{
+	background-color:#64ac4e;
+}
+.W105{width:105px;}
+.W135{width: 135px;}
+.SelectBM{margin:10px 10px 10px 30px;}
+.W80{width:80px;}
+.W65{width: 65px;}
+.W140{width:140px;}
+.W85{width:85px;}
+.W75{width:75px;}
+.W125{width:125px;}
+.W115{width:115px;}
+.back {
+    color: #69982A;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 15px 12px;
+    text-decoration: none;
+}
+.go{background:url(../images/sprite.png) -473px -93px no-repeat; width:27px; height:28px; float:left; border:none; cursor:pointer;}
+.go:hover{background:url(../images/sprite.png) -473px -65px no-repeat;}
+.go:active{background:url(../images/sprite.png) -473px -37px no-repeat;}
